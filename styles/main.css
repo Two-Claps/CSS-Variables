@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
+
+:root {
+    --base: white;
+    --spacing: 10px;
+    --blur: 10px;
+}
+
+img {
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+    width: 800px;
+}
+
+.hl {
+    color: var(--base);
+}
+
+body {
+    text-align: center;
+    color: white;
+    background-color: #F5C19A;
+    font-family: 'Galada', cursive, sans-serif;
+    font-weight: 100;
+    font-size: 28px;
+}
+
+.controls {
+    margin-bottom: 50px;
+}
+
+input {
+    width: 100px;
+}
+
+p {
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+}
+
+a {
+    color: white;
+}
